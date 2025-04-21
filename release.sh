@@ -1,1 +1,1 @@
-sudo docker build -t salary .
+sudo docker build -t salary-viz .
