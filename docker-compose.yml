@@ -1,0 +1,8 @@
+services:
+  salary:
+    container_name: salary-viz
+    image: salary-viz
+    network_mode: bridge
+    ports:
+      - "8080:80"
+    restart: always
